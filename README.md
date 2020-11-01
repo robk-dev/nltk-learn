@@ -26,3 +26,5 @@ jupyter notebook
 Produce list of the most frequent interesting words and summary table showing where they appear.
 
 * Making a dictionary of the top 150 most frequent interesting words, mapping them back to their orignial sentences and storing them as CSV & JSON
+* Left arrays/lists inside csv to preserve commas
+* was going to do tf-idf, but it wouldn't have shown most frequent words/outside of scope
