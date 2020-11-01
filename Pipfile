@@ -7,6 +7,8 @@ name = "pypi"
 nltk = "*"
 jupyterlab = "*"
 numpy = "*"
+wordcloud = "*"
+pandas = "*"
 
 [dev-packages]
 
