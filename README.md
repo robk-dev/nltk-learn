@@ -25,6 +25,7 @@ To run script, build react app with table & serve it and data from flask in dock
 
 ```sh
 ./start.sh
+# it will be listening at http://localhost:8080
 ```
 
 ## Motivation
@@ -44,4 +45,5 @@ Needs data.json from solution.py in ./flask-server in order to initialize db. To
 ```sh
 docker build -t sol .
 docker run -it --publish 8080:8080 sol
+# it will be listening at http://localhost:8080
 ```
