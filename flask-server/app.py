@@ -22,7 +22,7 @@ for datum in data:
     if exists:
         continue
     else:
-        word = Word(value=datum['word'], frequency=datum['frequency'], docs=' '.join(datum['docs']), sentences=', '.join(datum['sentences']))
+        word = Word(value=datum['word'], frequency=datum['frequency'], docs=' '.join(datum['docs']), sentences=' '.join(datum['sentences']))
         db.session.add(word)
     
 db.session.commit()

@@ -23,9 +23,5 @@
   },
   "include": [
     "src"
-  ],
-  "ignore": [
-    "**/__snapshots__/",
-    "**/*.test*/"
   ]
 }
