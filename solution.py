@@ -106,5 +106,9 @@ f = open("./processed/data.json", "w")
 f.write(d)
 f.close()
 
+f = open("./flask-server/data.json", "w")
+f.write(d)
+f.close()
+
 df = pd.read_json('./processed/data.json')
 df.to_csv('./processed/data.csv')
