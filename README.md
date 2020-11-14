@@ -31,25 +31,3 @@ python solution.py
 # or run jupyter
 jupyter notebook
 ```
-
-### Table from another project
-
-> Added a React table with word filtering and sorting on different fields from another project; hosted on Flask
-
-To run script, build react app with table & serve it and data from flask in docker container
-
-```sh
-./start.sh
-# it will be listening at http://localhost:8080
-# Needs data.json from solution.py in ./flask-server
-```
-
-### To build react & flask container after generating word frequency
-
-Needs data.json from solution.py in ./flask-server in order to initialize db. To run:
-
-```sh
-docker build -t sol .
-docker run -it --publish 8080:8080 sol
-# it will be listening at http://localhost:8080
-```
